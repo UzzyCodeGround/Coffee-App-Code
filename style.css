@@ -10,10 +10,36 @@
 .logo {
     width: 10%;
     height: 10%;
-    vertical-align: centre;
+    vertical-align: center;
 
 }
 
 .headerbanner {
     text-align: center;
+    border: 3px solid red;
+    align-items: centre; 
+    background-color:chartreuse;
+    margin: 2%;
+}
+ 
+.choose {
+    border: 3px solid seagreen; 
+    height: 30%;
+    width: 40%;
+    display: flex;
+  
+
+}
+
+.cart {
+    border: 3px solid rgb(37, 154, 184); 
+    height: 30%;
+    width: 30%;
+    display: flex;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction:initial;
 }
