@@ -17,28 +17,35 @@
 .headerbanner {
     text-align: center;
     border: 3px solid red;
-    align-items: centre; 
     background-color:chartreuse;
     margin: 2%;
 }
  
 .choose {
     border: 3px solid seagreen; 
-    height: 60%;
-    width: 70%;
-    
-  
-
+    height: 30%;
+    width: 50%;
+    text-align: center;
+    margin: 2%;
 }
 
 .cart {
     border: 3px solid rgb(37, 154, 184); 
     height: 30%;
-    width: 30%;
-    
+    width: 50%;
+    text-align: center;
+    margin: 2%;  
 }
 
 .wrapper{
     display: flex;
     flex-direction:row;
+}
+
+.payment{
+    border: 3px solid rgb(137, 46, 139); 
+    height: 30%;
+    width: 80%;
+    text-align: center;
+    margin: 2%;
 }
