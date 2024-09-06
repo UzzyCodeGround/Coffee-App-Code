@@ -19,6 +19,7 @@
     border: 3px solid red;
     background-color:chartreuse;
     margin: 2%;
+    padding:3%;
 }
  
 .choose {
@@ -27,6 +28,7 @@
     width: 50%;
     text-align: center;
     margin: 2%;
+    padding: 2%;
 }
 
 .cart {
@@ -35,6 +37,7 @@
     width: 50%;
     text-align: center;
     margin: 2%;  
+    padding: 2%;
 }
 
 .wrapper{
@@ -44,8 +47,7 @@
 
 .payment{
     border: 3px solid rgb(137, 46, 139); 
-    height: 30%;
-    width: 80%;
     text-align: center;
     margin: 2%;
+    padding: 2%;
 }

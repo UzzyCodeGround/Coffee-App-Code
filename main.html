@@ -19,12 +19,22 @@
     <div class="choose">
         <p>
             What would you like ? (selector)
+            <select name="item" id="coffee_item">
+                <option value="">Choose</option>
+                <option value="Cappicino">Cappicino</option>
+                <option value="Flat White">Flat White</option>
+                <option value="croissant">croissant</option>
+            </select>
+        </p>
+        <p>
+            Quantity: <input type="number" id="quantity" min="1" value="1">
         </p>
     </div>
 
     <div class="cart">
         <p>
-            What would you like? (tally)
+            In your basket:
+            <span id="cart_items">None</span>
         </p>
     </div>
 </div>
@@ -34,9 +44,11 @@
         payment methods (apple-pay & google-pay)
     </p>
 </div>
-    
+
+
 
 </body>
+
 
 </html>
 
