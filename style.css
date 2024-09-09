@@ -14,52 +14,17 @@
 
 }
 
-.headerbanner {
-    text-align: center;
-    border: 3px solid red;
-    background-color:chartreuse;
-    margin: 2%;
-    padding:3%;
-}
- 
-.choose {
-    border: 3px solid seagreen; 
-    height: 30%;
-    width: 50%;
-    text-align: center;
-    margin: 2%;
-    padding: 2%;
-}
-
-.cart {
-    border: 3px solid rgb(37, 154, 184); 
-    height: 30%;
-    width: 50%;
-    text-align: center;
-    margin: 2%;  
-    padding: 2%;
-}
-
-.wrapper{
-    display: flex;
-    flex-direction:row;
-}
-
-.payment{
-    border: 3px solid rgb(137, 46, 139); 
-    text-align: center;
-    margin: 2%;
-    padding: 2%;
-}
-
 .maincontainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto ;
-}
-
-.payment:nth-child(3){
-    grid-column: 2/2;
-    grid-row: 2/2;
-
-}
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows:auto auto auto;
+    
+  }
+  
+  figure{
+    border:2px solid red;
+    text-align:center;
+  }
+  figure:first-child{
+    grid-column: 1/3;  
+  }
