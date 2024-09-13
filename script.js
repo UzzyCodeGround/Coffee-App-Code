@@ -1,6 +1,6 @@
 
 
-// define
+/*/ define
 const selectElement = document.getElementById('coffee_item');
 const cartItems = document.getElementById('cart_items');
 
@@ -14,10 +14,12 @@ function updateCart() {
     }
 }
 
-// Add an event listener to the select element
+Add an event listener to the select element
 selectElement.addEventListener('change', updateCart);
+*/ 
 
-/* my code change 
+const selectElement = document.getElementById('coffee_item');
+const cartItems = document.getElementById('cart_items'); 
 
 function updatecart() {
     const selectedItem = selectElement.value;
@@ -28,4 +30,3 @@ function updatecart() {
       cartItems = "None";   
     }
 }
-*/
