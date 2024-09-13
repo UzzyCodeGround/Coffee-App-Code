@@ -16,3 +16,16 @@ function updateCart() {
 
 // Add an event listener to the select element
 selectElement.addEventListener('change', updateCart);
+
+/* my code change 
+
+function updatecart() {
+    const selectedItem = selectElement.value;
+    if (selectedItem.length>0) {
+      cartitems = selectedItem;
+      console.log(cartitems)
+    }else{
+      cartItems = "None";   
+    }
+}
+*/
