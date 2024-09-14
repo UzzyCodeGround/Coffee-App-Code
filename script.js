@@ -24,9 +24,10 @@ const cartItems = document.getElementById('cart_items');
 function updatecart() {
     const selectedItem = selectElement.value;
     if (selectedItem.length>0) {
-      cartitems = selectedItem;
-      console.log(cartitems)
+      cartItems = selectedItem;
+      console.log(cartItems)
     }else{
       cartItems = "None";   
     }
 }
+typeof selectElement 
