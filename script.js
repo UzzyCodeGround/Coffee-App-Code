@@ -31,4 +31,3 @@ function updatecart() {
     }
 }
 typeof selectElement 
-sdpksvcopdk
